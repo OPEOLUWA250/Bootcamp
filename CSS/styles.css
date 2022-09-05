@@ -28,7 +28,7 @@ body::before {
 
   .navbar .nav-link{
     font-style: normal;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 1rem;
     line-height: 6px;
     font-family: sans-serif;
@@ -37,10 +37,6 @@ body::before {
     padding: 1rem;
     color: #141313;
 }
-
-  .navbar button {
-      background: transparent;
-  }
 
 a.nav-link.active{
     background: linear-gradient(90deg, #4458dc 0%, #854fee 100% );
@@ -120,6 +116,10 @@ a.nav-link.active{
  /* End about area */
 
  /* contact area */
+.contact .call-area .call-now {
+    margin-top: 6rem;
+    padding-left: 0.4rem;
+}
 
  .contact .call-area .call-now a {
      text-decoration: none;
@@ -137,6 +137,11 @@ a.nav-link.active{
       margin: 5rem 0; 
   }
 
+  .services .card {
+      background: linear-gradient(90deg, #8694f1 0%, #a882f3 100% );
+      color: #000;
+  }
+
   .services .services-header {
       text-align: center;
       font-size: 2.5rem;
@@ -147,14 +152,18 @@ a.nav-link.active{
   }
 
   .services .font-awesome {
-      color: #854fee;
+      color: #fff;
       font-size: 3rem ;
   }
 
   /* Project area */
 
  .project-area {
-   padding-left: 3rem;
+   padding-left: 1rem;
+ }
+
+ .project-area .our-project {
+     padding-left: 3rem;
  }
 
  .project-area .title-h1 {
@@ -224,7 +233,8 @@ a.nav-link.active{
       color: #999;
   }
 
-  .footer-area .copyright .fonts a:hover > i {
+  .footer-area .copyright .fonts a:hover > i,
+  .footer-area .copyright .fonts a:focus > i {
       color: #854fee;
   }
 
@@ -252,10 +262,24 @@ a.nav-link.active{
         width: 75%;
     }
 
+    .subscribe {
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40vh;
+        overflow: hidden;
+        margin: 0 10rem;
+        flex-direction: column;
+    }
+
    
 }
 
 @media (max-width: 390px) {
+ 
+    
+
     .site-introduction .site-title {
         margin: 1.5rem 0;
     }

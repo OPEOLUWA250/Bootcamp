@@ -9,6 +9,8 @@
 
  var capitalisedVisitorName = firstCharacter + restOfName;
 
+ var capitalisedVisitorName = capitalisedVisitorName.slice(0,21)
+
  var welcome = document.getElementById('visitor')
 
   welcome.innerHTML = 'Hi ' + capitalisedVisitorName 
