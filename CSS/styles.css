@@ -116,6 +116,10 @@ a.nav-link.active{
  /* End about area */
 
  /* contact area */
+.contact .single-brand .image-fluid {
+    margin: 0.5rem;
+}
+
 .contact .call-area .call-now {
     margin-top: 6rem;
     padding-left: 0.4rem;
@@ -209,11 +213,16 @@ a.nav-link.active{
   .subscribe {
       background: linear-gradient(90deg, #4458dc 0%, #854fee 100% );
   }
+
+  .subscribe button {
+      color: #777;
+  }
  
   .subscribe button:hover,
   .subscribe button:focus {
       background: transparent;
       border: 1px solid #fff;
+      color: #fff;
   }
 
   .subscribe .input-group {
